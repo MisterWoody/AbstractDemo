@@ -14,5 +14,7 @@ namespace DemoLibrary
             return "testConnectionString";
         }
 
+        public abstract void LoadData(string sql);
+
     }
 }
