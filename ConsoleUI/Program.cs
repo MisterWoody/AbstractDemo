@@ -13,7 +13,7 @@ namespace ConsoleUI
         {
             //SqliteDataAccess da = new SqliteDataAccess();
 
-            DataAccess da = new DataAccess();
+            SqliteDataAccess da = new SqliteDataAccess();
 
 
             //List<IDataAccess> databases = new List<IDataAccess>()
