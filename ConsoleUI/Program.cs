@@ -24,9 +24,10 @@ namespace ConsoleUI
 
             foreach (var db in databases)
             {
-                db.LoadConnectionString("demo");
-                db.LoadData("select * from table");
-                db.SaveData("insert into table");
+                Console.WriteLine(db.LoadConnectionString("demo"));
+                //db.LoadConnectionString("demo");
+                //db.LoadData("select * from table");
+                //db.SaveData("insert into table");
                 Console.WriteLine();
             }
 
