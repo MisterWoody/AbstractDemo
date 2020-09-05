@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class DataAccess
+    public abstract class DataAccess
     {
         public string LoadConnectionString(string name)
         {
