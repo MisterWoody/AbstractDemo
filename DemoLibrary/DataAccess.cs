@@ -16,5 +16,7 @@ namespace DemoLibrary
 
         public abstract void LoadData(string sql);
 
+        public abstract void SaveData(string sql);
+
     }
 }
