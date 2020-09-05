@@ -8,6 +8,10 @@ namespace DemoLibrary
 {
     public class SqliteDataAccess : DataAccess
     {
+        public override string LoadConnectionString(string name)
+        {
+            return "Sqlite test data string";
+        }
 
         public override void LoadData(string sql)
         {
