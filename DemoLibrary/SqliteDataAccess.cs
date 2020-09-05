@@ -10,7 +10,10 @@ namespace DemoLibrary
     {
         public override string LoadConnectionString(string name)
         {
-            return "Sqlite test data string";
+            string output = base.LoadConnectionString(name);
+
+            output += " (from Sqlite)";
+            return output;
         }
 
         public override void LoadData(string sql)
