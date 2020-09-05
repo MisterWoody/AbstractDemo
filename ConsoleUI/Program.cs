@@ -11,9 +11,10 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            SqliteDataAccess da = new SqliteDataAccess();
+            //SqliteDataAccess da = new SqliteDataAccess();
 
-            
+            DataAccess da = new DataAccess();
+
 
             //List<IDataAccess> databases = new List<IDataAccess>()
             //{
